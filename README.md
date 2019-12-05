@@ -2,7 +2,7 @@
 
 ## Task1: Set-up and Test NodeMcu 
 
-1. 1.	[To Support the Current Hardware] Open Arduino IDE & File Menu -> Go to Preferences Tab & update the "Additional Boards Manager URLs" to     http://arduino.esp8266.com/stable/package_esp8266com_index.json.
+1. [To Support the Current Hardware] Open Arduino IDE & File Menu -> Go to Preferences Tab & update the "Additional Boards Manager URLs" to     http://arduino.esp8266.com/stable/package_esp8266com_index.json.
 2. Install esp8266 from tools -> board manager 
 3. Install the USB Driver for uploading file change board to node MCU 0.9 https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 4. Select Tools -> Board(NodeMcu0.9) and then connect the Microcontroller and then select the Port(“COM3”)
