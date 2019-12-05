@@ -40,7 +40,7 @@ Yippee! We are one more step ahead. Ready!!
 * Connection String (noted above from Excel for respective DeviceId)
 
 5. Download Device Explorer (FileName – “SetupDeviceExplorer.msi”) from https://aka.ms/aziotdevexp & install.
-6. (N/A) Open Azure Portal, go to <your_iot_hub(created)>->SharedAccessPolicy->iothubowner, and copy primary connection string
+6. (N/A) Open Azure Portal, go to <your_iot_hub(created)>->SharedAccessPolicy->iothubowner, and copy primary connection string(HostName=garagepos01.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=WIhMVLoMWfEfpcnaAT92PAnPbGIqRgdaRTLKeZzicLw=)
 7. Paste above connection string in Device Explorer and Monitor
 8. Make necessary changes in message.ino file from Module1.
 
