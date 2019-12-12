@@ -2,7 +2,7 @@
 
 ## Task1: Set-up and Test NodeMcu 
 
-1. 1.	[To Support the Current Hardware] Open Arduino IDE & File Menu -> Go to Preferences Tab & update the "Additional Boards Manager URLs" to     http://arduino.esp8266.com/stable/package_esp8266com_index.json.
+1. [To Support the Current Hardware] Open Arduino IDE & File Menu -> Go to Preferences Tab & update the "Additional Boards Manager URLs" to     http://arduino.esp8266.com/stable/package_esp8266com_index.json.
 2. Install esp8266 from tools -> board manager 
 3. Install the USB Driver for uploading file change board to node MCU 0.9 https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
 4. Select Tools -> Board(NodeMcu0.9) and then connect the Microcontroller and then select the Port(“COM3”)
@@ -23,6 +23,11 @@ Cheers! First MileStone is achieved. Your NodeMcu is working properly.
 
   
 Yippee! We are one more step ahead. Ready!!
+
+## File Updates
+
+Make sure the below Line in commented Arduino.h File under "C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino” (AND C:\Users\<useralias>\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.2\cores\esp8266) 
+//#define round(x) ((x)>=0?(long)((x)+0.5):(long)((x)-0.5))
 
 ## Task3: Link Azure IoT Hub and Upload your data
 1. Install the below libraries in Arduino Under Tools -> Manage Libraries (kind of plug-ins):
